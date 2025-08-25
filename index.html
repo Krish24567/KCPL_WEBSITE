@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kalpaka Organics offers premium organic solutions for cultivation. Discover our range of Vermi Star compost, Pot Star mix, and Amino Star nutrients. From Carbon to Cultivation – trust our 30-year legacy.">
+    <title>Kalpaka Organics - Nurturing Nature. Enriching Soil.</title>
+    <!-- Favicon using your provided image -->
+    <link rel="icon" href="logo1.jpeg" type="image/png">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Inter Font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div id="loader-wrapper">
+        <div id="loader" style="background-image: url('logo1.jpeg');"></div>
+    </div>
+
+    <!-- Fixed Header/Navigation -->
+    <header class="header">
+        <nav class="header-nav">
+            <!-- Logo and Title - now a div -->
+            <div class="header-logo-container">
+                <!-- Logo image from your provided file -->
+                <img src="logo1.jpeg" alt="Kalpaka Organics Logo">
+                
+                <!-- Kalpaka Organics text removed as per request -->
+            </div>
+            <!-- Desktop Navigation -->
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="about.html#mission-vision" class="nav-link"> Mission & Vision</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+            </ul>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Overlay and Menu -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="close-mobile-nav" id="close-mobile-nav">
+            <i class="fa-solid fa-times"></i>
+        </div>
+        <ul class="mobile-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html#mission-vision">Mission & Vision</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Home Section with Video Background -->
+        <section id="home" class="page-section video-background-container active">
+            <!-- Video element for background -->
+            <video autoplay loop muted playsinline class="background-video">
+                <!-- IMPORTANT: Replace 'your-background-video.mp4' with the actual path to your video file -->
+                <source src="index.mp4" type="video/mp4">
+                <!-- Fallback for browsers that don't support the video tag -->
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h1 class="hero-title">Kalpaka Organics</h1>
+                <p class="hero-subtitle">From Carbon to Cultivation – 30 Years of Trust, Now Growing Organically</p>
+                <p class="hero-tagline"> Enriching <strong class="text-primary-green">Soil</strong>. Empowering <strong class="text-primary-green">Farmers</strong>.</p>
+                <a href="products.html" class="btn-modern">Explore Our Products</a>
+            </div>
+        </section>
+
+        <!-- Home Page Content (from PDF) -->
+        <section id="home-content" class="page-section bg-white">
+            <div class="max-w-5xl mx-auto text-center mb-12">
+                <h2 class="section-heading">Welcome to Kalpaka Organics</h2>
+                <p class="section-subheading">
+                    For over three decades, Kalpaka Chemicals Pvt. Ltd. has been a trusted manufacturer and global exporter of premium-quality activated carbon. Today, we proudly extend that legacy through the launch of Kalpaka Organics — a dedicated division focused on sustainable agriculture, healing the soil, promoting organic farming, and bringing real agriculture back to life.
+                </p>
+                <p class="section-subheading">
+                    At Kalpaka Organics, we believe the future of farming lies in the health of the soil. That’s why we offer nature-powered solutions designed to enrich the earth, support farmers, and protect the environment.
+                </p>
+                <p class="section-subheading">Our products are:</p>
+                <!-- REMOVED Tailwind flex classes here -->
+                <ul class="content-list mb-10">
+                    <li><i class="fa-solid fa-seedling"></i> Made with care</li>
+                    <li><i class="fa-solid fa-certificate"></i> Tested for quality</li>
+                    <li><i class="fa-solid fa-handshake-simple"></i> Trusted by farmers across regions</li>
+                </ul>
+                <p class="section-subheading">
+                    Whether you're managing large farmlands or tending a home garden, we provide the organic inputs your soil and crops need to thrive — naturally.
+                </p>
+
+                <h3 class="text-3xl font-bold text-secondary-green mb-6">Key Highlights</h3>
+                <div class="grid-container md:grid-cols-2 lg:grid-cols-3">
+                    <div class="grid-item">
+                        <p><i class="fa-solid fa-check-circle"></i> Over <strong class="text-primary-green">30 years</strong> of manufacturing excellence</p>
+                    </div>
+                    <div class="grid-item">
+                        <p><i class="fa-solid fa-check-circle"></i> Serving clients across <strong class="text-primary-green">25+ countries</strong></p>
+                    </div>
+                    <div class="grid-item">
+                        <p><i class="fa-solid fa-check-circle"></i> New venture focused on <strong class="text-primary-green">organic agricultural solutions</strong></p>
+                    </div>
+                    <div class="grid-item">
+                        <p><i class="fa-solid fa-check-circle"></i> Products include <strong class="text-primary-green">Organic Compost, Vermi Compost, and Fish Amino Acid</strong></p>
+                    </div>
+                    <div class="grid-item lg:col-span-1">
+                        <p><i class="fa-solid fa-check-circle"></i> Committed to <strong class="text-primary-green">soil health, farmers well-being, and environmental sustainability</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section - SLIDESHOW -->
+        <section id="testimonials" class="page-section">
+            <div class="max-w-5xl mx-auto text-center mb-12">
+                <h2 class="section-heading">What Our Customers Say</h2>
+                <p class="section-subheading">Real feedback from farmers, gardeners, and partners who trust Kalpaka Organics.</p>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="slides-wrapper">
+                    <!-- Testimonial Slide 1 -->
+                    <div class="testimonial-slide">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <p class="italic">"Hear how our organic products are making a difference in  <strong class="text-primary-green">real farms and gardens</strong></p>
+                        <p class="font-semibold">- Voices from the Field</p>
+                    </div>
+                    <!-- Testimonial Slide 2 -->
+                    <div class="testimonial-slide">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <p class="italic">" <strong class="text-primary-green">Trusted by Growers</strong>across regions - here's what they have to say about our <strong class="text-primary-green">quality and service</strong>."</p>
+                        <p class="font-semibold">- Testimonials</p>
+                    </div>
+                    <!-- Testimonial Slide 3 -->
+                    <div class="testimonial-slide">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <p class="italic">"Experience shared by those who have seen the difference with  <strong class="text-primary-green">Kalpaka Organics</strong>."</p>
+                        <p class="font-semibold">- Organic Results. Real Stories</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <a class="slideshow-nav-btn prev-btn" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-left"></i></a>
+                <a class="slideshow-nav-btn next-btn" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-right"></i></a>
+
+                <!-- Dots -->
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Organic Farming Section -->
+        <section id="why-organic" class="page-section bg-white">
+            <div class="max-w-6xl mx-auto text-center">
+                <h2 class="section-heading">Why Choose Organic Farming?</h2>
+                <p class="section-subheading">
+                    At Kalpaka Organics, we believe organic farming isn’t just better for the land — it’s better for life. Real growth begins with healthy soil, Organic farming, and a commitment to the Earth. Every handful of organic soil holds hope for tomorrow, because the Earth deserves better — and so do you. Organic farming isn’t just a method; it’s a movement towards <strong class="text-primary-green">healthier soil, safer food, and a truly sustainable future</strong>.
+                </p>
+                <div class="grid-container md:grid-cols-2 lg:grid-cols-3">
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-leaf mr-2"></i>Healthier Soil, Healthier Crops</h3>
+                        <p>Organic compost and natural inputs rebuild soil fertility, boost microbial life, and help crops grow stronger — <strong class="text-primary-green">naturally</strong>.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-ban mr-2"></i>Chemical-Free Food for Families</h3>
+                        <p>Say goodbye to harmful pesticides and synthetic fertilizers. Organic farming delivers food that’s <strong class="text-primary-green">clean, safe, and chemical-residue free</strong>.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-apple-whole mr-2"></i>Real Taste. Real Nutrition.</h3>
+                        <p>Organic crops grow slowly and naturally — giving them <strong class="text-primary-green">better taste, longer shelf life, and deeper nourishment</strong>.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-water mr-2"></i>Cleaner Water. Fresh Air.</h3>
+                        <p>No toxic runoff. No groundwater contamination. Just <strong class="text-primary-green">clean, green farming</strong> that respects the ecosystem.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-chart-line mr-2"></i>Higher Market Value</h3>
+                        <p>The demand for organic produce is rising worldwide. Farmers who go organic often enjoy <strong class="text-primary-green">better prices, stronger brands, and loyal buyers</strong>.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-globe mr-2"></i>Eco-Friendly & Climate-Smart</h3>
+                        <p>Organic farming reduces carbon footprint and pollution — it’s farming that <strong class="text-primary-green">fights climate change and preserves the planet</strong>.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-carrot mr-2"></i>Better Crops. Healthier Yields.</h3>
+                        <ul class="content-list items-start mt-2">
+                            <li><i class="fa-solid fa-check"></i> Boosts flowering and fruiting</li>
+                            <li><i class="fa-solid fa-check"></i> Rich in nutrients and flavor</li>
+                            <li><i class="fa-solid fa-check"></i> Improves shelf life naturally</li>
+                        </ul>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-sack-dollar mr-2"></i>Better Returns for Farmers</h3>
+                        <ul class="content-list items-start mt-2">
+                            <li><i class="fa-solid fa-check"></i> Growing consumer demand</li>
+                            <li><i class="fa-solid fa-check"></i> Higher resale value</li>
+                            <li><i class="fa-solid fa-check"></i> Trusted by conscious buyers</li>
+                        </ul>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="text-2xl font-semibold text-secondary-green mb-3 flex items-center"><i class="fa-solid fa-seedling mr-2"></i>Sustainable Farming for Generations</h3>
+                        <p>Organic methods protect soil structure, reduce erosion, and support biodiversity — ensuring your land stays <strong class="text-primary-green">productive for years to come by Circular economy</strong>
+                             "What comes from soil goes back to soil,<strong class="text-primary-green"> as that is where it belongs"</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Removed Our Vision Section from here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top-sections">
+            <div class="footer-section social-media">
+                <h3>Connect With Us</h3>
+                <div class="footer-contact-line">
+                    <i class="fa-solid fa-location-dot"></i> <span>  4/133X, Muthammal Colony, 3rd Street, Thoothukudi, Tamil Nadu
+                        628002.</span>
+                </div><br>
+                <div class="footer-contact-line">
+                    <i class="fa-solid fa-phone"></i> <span>91-461-2347668</span>
+                </div><br>
+                <div class="footer-contact-line">
+                    <i class="fa-solid fa-envelope"></i> <span>kalpakaorganics@gmail.com</span>
+                </div>
+                <div class="social-icons">
+                    <a href="https://wa.me/yourphonenumber" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://facebook.com/yourpagename" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                     <a href="https://www.youtube.com/@yourchannelname" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section certifications">
+                <h3>Our Certifications</h3>
+                <ul>
+                    <li><i class="fa-solid fa-award"></i> ISO 9001:2015 Certified</li>
+                    <li><i class="fa-solid fa-leaf"></i> Organic Certified Supplier</li>
+                    <li><i class="fa-solid fa-handshake"></i> Trusted Export Partner</li>
+                </ul>
+            </div>
+            <!-- New Quick Links Section with Icons -->
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+                    <li><a href="products.html"><i class="fa-solid fa-box"></i> Products</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-newspaper"></i> Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom-copyright">
+            <p>&copy; 2025 Kalpaka Organics. All rights reserved. Cultivating Health, Nurturing Earth.</p>
+            <div class="footer-links">
+                <a href="https://samudhratechsolutions.biz/" target="_blank">Web designed by : Samudhra Tech Solutions</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Three.js CDN (REMOVED from here) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Loader Logic ---
+            const loaderWrapper = document.getElementById('loader-wrapper');
+            window.addEventListener('load', () => {
+                loaderWrapper.classList.add('loader-hidden');
+            });
+
+            // --- Mobile Navigation Logic ---
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const mobileNav = document.getElementById('mobile-nav');
+            const closeMobileNav = document.getElementById('close-mobile-nav');
+            const mobileNavOverlay = document.getElementById('mobile-nav-overlay');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-list a');
+
+            hamburgerMenu.addEventListener('click', () => {
+                mobileNav.classList.add('open');
+                mobileNavOverlay.classList.add('open'); // Also open the overlay
+            });
+
+            closeMobileNav.addEventListener('click', () => {
+                mobileNav.classList.remove('open');
+                mobileNavOverlay.classList.remove('open'); // Also close the overlay
+            });
+
+            mobileNavOverlay.addEventListener('click', () => {
+                mobileNav.classList.remove('open');
+                mobileNavOverlay.classList.remove('open'); // Also close the overlay
+            });
+
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileNav.classList.remove('open');
+                    mobileNavOverlay.classList.remove('open');
+                });
+            });
+
+
+            // --- Page Section Intersection Observer ---
+            const sections = document.querySelectorAll('.page-section');
+            const sectionObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    } else {
+                        // Optionally remove 'active' class when out of view for re-animation on scroll back
+                        // entry.target.classList.remove('active');
+                    }
+                });
+            }, {
+                rootMargin: '0px',
+                threshold: 0.1 // Trigger when 10% of the section is visible
+            });
+
+            // Observe all sections except the initial home, which is active by default
+            sections.forEach(section => {
+                if (section.id !== 'home') {
+                    sectionObserver.observe(section);
+                }
+            });
+
+            // Ensure the initial home section is active on load
+            document.getElementById('home').classList.add('active');
+
+
+            // --- Parallax Scrolling Effect (REMOVED: not applicable with video background) ---
+            // const parallaxBg = document.querySelector('.parallax-bg');
+            // const parallaxContainer = document.querySelector('.parallax-container');
+            // if (parallaxBg && parallaxContainer) {
+            //     const parallaxSpeed = 0.3;
+            //     window.addEventListener('scroll', () => {
+            //         const scrollPosition = window.pageYOffset;
+            //         const containerTop = parallaxContainer.offsetTop;
+            //         const relativeScroll = scrollPosition - containerTop;
+            //         if (relativeScroll >= 0 && relativeScroll <= parallaxContainer.offsetHeight) {
+            //             parallaxBg.style.transform = `translateY(${relativeScroll * parallaxSpeed}px)`;
+            //         } else if (relativeScroll < 0) {
+            //             parallaxBg.style.transform = `translateY(0px)`;
+            //         }
+            //     });
+            // }
+
+            // --- Testimonial Slideshow Logic (for home page only) ---
+            const slideshowContainer = document.querySelector('.slideshow-container');
+            const slides = document.querySelectorAll('.testimonial-slide');
+            if (slides.length > 0) { // Only run if testimonial slides exist on this page
+                let slideIndex = 1;
+                const dots = document.querySelectorAll('.dot');
+                const slidesWrapper = document.querySelector('.slides-wrapper');
+                let autoSlideInterval; // Declare interval variable
+
+                // Store background image URLs for each slide
+                const backgroundImages = [
+                    'index2.jpg', // For slide 1 (using your uploaded image)
+                    'index4.jpg', // For slide 2
+                    'index5.jpg'  // For slide 3
+                ];
+
+                function showSlides(n) {
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+
+                    // Update the background image of the slideshow container
+                    slideshowContainer.style.backgroundImage = `url('${backgroundImages[slideIndex - 1]}')`;
+
+                    // Slide the content
+                    slidesWrapper.style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
+
+                    // Update dots
+                    dots.forEach(dot => dot.classList.remove('active'));
+                    if (dots[slideIndex - 1]) {
+                        dots[slideIndex - 1].classList.add('active');
+                    }
+                }
+
+                // Function to start automatic sliding
+                function startAutoSlide() {
+                    autoSlideInterval = setInterval(() => {
+                        plusSlides(1);
+                    }, 7000); // Change slide every 7 seconds
+                }
+
+                // Function to stop automatic sliding
+                function stopAutoSlide() {
+                    clearInterval(autoSlideInterval);
+                }
+
+                window.plusSlides = function(n) {
+                    stopAutoSlide(); // Stop auto-slide on manual navigation
+                    showSlides(slideIndex += n);
+                    startAutoSlide(); // Restart auto-slide after a brief delay
+                }
+
+                window.currentSlide = function(n) {
+                    stopAutoSlide(); // Stop auto-slide on manual navigation
+                    showSlides(slideIndex = n);
+                    startAutoSlide(); // Restart auto-slide after a brief delay
+                }
+
+                // Start auto-slide when the page loads
+                startAutoSlide();
+
+                // Pause/Resume auto-slide on hover
+                slideshowContainer.addEventListener('mouseenter', stopAutoSlide);
+                slideshowContainer.addEventListener('mouseleave', startAutoSlide);
+
+                showSlides(slideIndex); // Initial display
+            }
+            // 3D Visualization script REMOVED from here
+        });
+    </script>
+</body>
+</html>
